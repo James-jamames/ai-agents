@@ -20,7 +20,7 @@ if not already_exists:
     for i, row in df.iterrows():
         document = Document(
             id=str(i),
-            page_content=row['title'] + " " + row["Review"],
+            page_content=row["Title"] + " " + row["Review"],
             metadata={"rating": row["Rating"], "date": row["Date"]}
         )
 
@@ -35,3 +35,7 @@ vector_store = Chroma(
 
 if not already_exists:
     vector_store.add_documents(documents=documents, ids=ids)
+
+retriever = vector_store.as_retriever(
+    search_kwargs={"k": 10}
+)
