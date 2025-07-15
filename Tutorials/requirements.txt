@@ -1,0 +1,7 @@
+pypdf
+dotenv
+ipykernel
+langchain
+langchain[google-genai]
+langchain-core
+langchain-community
