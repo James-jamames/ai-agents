@@ -6,12 +6,12 @@ Aqui estão alguns dos tutoriais disponíveis no site oficial da LangChain.
 
 - Get started  
 [x] Chat models and prompts  
-[ ] Semantic search  
-[ ] Classification  
-[ ] Extraction  
+[x] Semantic search  
+[x] Classification  
+[x] Extraction  
 
 - Orchestration  
-[ ] Chatbots  
+[x] Chatbots  
 [ ] Agents  
 [ ] Retrieval Augmented Generation (RAG) Part 1  
 [ ] Retrieval Augmented Generation (RAG) Part 2  
@@ -19,18 +19,21 @@ Aqui estão alguns dos tutoriais disponíveis no site oficial da LangChain.
 [ ] Summarization  
 [ ] Question-Answering with Graph Databases  
 
-- Evaluation  
+- Evaluation
 
-## Setup
+# How-to guides
 
-### Windows
+# Setup
 
-> python -m venv venv
-> ./venv/Scripts/activate
-> pip install -r requirements.txt
+## Windows
 
-### Ubuntu
+> python -m venv venv  
+> ./venv/Scripts/activate  
+> pip install -r requirements.txt  
 
-> python3 -m venv venv
-> ./venv/Scripts/activate
-> pip3 install -r requirements.txt
+## Ubuntu
+
+> python3 -m venv venv  
+> source ./venv/Scripts/activate  
+> pip3 install -r requirements.txt  
+
