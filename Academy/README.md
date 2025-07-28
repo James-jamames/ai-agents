@@ -1,27 +1,6 @@
-# LangChain Tutorials
+# LangChain Academy
 
-Aqui estão alguns dos tutoriais disponíveis no site oficial da LangChain.
-
-> https://python.langchain.com/docs/tutorials/
-
-- Get started  
-[x] Chat models and prompts  
-[x] Semantic search  
-[x] Classification  
-[x] Extraction  
-
-- Orchestration  
-[x] Chatbots  
-[ ] Agents  
-[ ] Retrieval Augmented Generation (RAG) Part 1  
-[ ] Retrieval Augmented Generation (RAG) Part 2  
-[ ] Question-Answering with SQL  
-[ ] Summarization  
-[ ] Question-Answering with Graph Databases  
-
-- Evaluation
-
-# How-to guides
+Aqui estão alguns dos cursos disponíveis no site oficial da LangChain Academy.
 
 # Setup
 
