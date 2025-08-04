@@ -1,5 +1,6 @@
 pypdf
 dotenv
+sqlite3
 ipython
 pydantic
 ipykernel
