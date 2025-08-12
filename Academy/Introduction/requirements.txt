@@ -4,6 +4,7 @@ ipython
 ipykernel
 pydantic
 ipykernel
+pyppeteer
 wikipedia
 langchain
 langchain[google-genai]
